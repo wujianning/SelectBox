@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main_fatherlayout"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/activity_main_textview"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="选择时间"
+        android:textColor="@color/app_whilecolor" />
+
+</LinearLayout>

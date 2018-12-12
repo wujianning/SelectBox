@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly_myinfo_changeaddress"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ly_myinfo_changeaddress_child"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/app_whilecolor"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:id="@+id/btn_myinfo_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="15dip"
+                android:gravity="center"
+                android:paddingLeft="12dp"
+                android:text="取消"
+                android:textStyle="bold"
+                android:textColor="@color/app_color"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/btn_myinfo_sure"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:paddingRight="12dp"
+                android:text="完成"
+                android:textStyle="bold"
+                android:textColor="@color/app_333333color"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/app_background_and_linecolor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.wjn.selectbox.view.WheelView
+                android:id="@+id/wv_birth_year"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+            <com.wjn.selectbox.view.WheelView
+                android:id="@+id/wv_birth_month"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+            <com.wjn.selectbox.view.WheelView
+                android:id="@+id/wv_birth_day"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
